@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#4A90E2</color> <!-- Синий -->
+    <color name="primaryLightColor">#7FB2F0</color> <!-- Светло-синий -->
+    <color name="primaryDarkColor">#1C5FA6</color> <!-- Темно-синий -->
+    <color name="secondaryColor">#FF6F61</color> <!-- Коралловый -->
+    <color name="secondaryLightColor">#FF9E8F</color> <!-- Светло-коралловый -->
+    <color name="secondaryDarkColor">#D84315</color> <!-- Темно-коралловый -->
+    <color name="primaryTextColor">#000000</color> <!-- Черный текст -->
+    <color name="secondaryTextColor">#000000</color> <!-- Черный текст -->
+</resources>

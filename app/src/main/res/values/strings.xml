@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test Chat App</string>
+    <string name="back_button_description">Назад</string>
+</resources>

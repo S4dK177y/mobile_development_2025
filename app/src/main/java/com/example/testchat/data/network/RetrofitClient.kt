@@ -16,7 +16,7 @@ object RetrofitClient {
         val authInterceptor = Interceptor { chain ->
             val token = TokenManager.getToken(context)
             val request = chain.request().newBuilder()
-                .addHeader("Authorization", "Bearer $token") // Проверьте формат заголовка
+                .addHeader("Authorization", "Bearer $token")
                 .build()
             chain.proceed(request)
         }
@@ -36,7 +36,7 @@ object RetrofitClient {
 
     }
 
-    // Создаем сервисы через функцию с контекстом
+
     fun getAuthService(context: Context): AuthApiService {
         return getClient(context).create(AuthApiService::class.java)
     }

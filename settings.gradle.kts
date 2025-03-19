@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "chatvica"
+rootProject.name = "test_chat_app"
 include(":app")
